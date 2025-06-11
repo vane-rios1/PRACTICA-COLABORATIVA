@@ -19,3 +19,11 @@ Diagrama de clases ---------- Paulina Sánchez Ramírez
 - Comienza definiendo la función
 - Despues se coloca un print en donde se escribira "Hola mundo"
 - Por ultimo cerrará con un main
+
+ # PROGRMA CON POO
+ El programa define una clase llamada HolaMundo, que sirve para guardar un mensaje personalizado. Cuando se crea un objeto a partir de esta clase, se le puede dar un mensaje, como por ejemplo "Hola mundo". Luego, el programa utiliza un método de esa clase para mostrar ese mensaje en la pantalla. En resumen, el programa está diseñado para recibir un mensaje al inicio y luego imprimirlo cuando se lo pida. Es una forma básica de demostrar cómo funcionan las clases y los métodos en Python.
+
+
+
+
+
