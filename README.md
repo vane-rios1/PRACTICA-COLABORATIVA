@@ -14,3 +14,8 @@ Diagrama de clases ---------- Paulina Sánchez Ramírez
 - El mensaje "Hola Mundo" aparece en pantalla cuando se ejecuta el programa.
 - Termina el algoritmo con FinAlgoritmo.
 
+
+# PROGRAMA ESTRUCTURADO A PYTHON
+- Comienza definiendo la función
+- Despues se coloca un print en donde se escribira "Hola mundo"
+- Por ultimo cerrará con un main
