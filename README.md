@@ -28,3 +28,28 @@ Diagrama de clases ---------- Paulina Sánchez Ramírez
 - 
 
 
+
+# Diagrama de clases 
+El codigo tiene una sola clase llamada HolaMundo. Entonces el diagrama se enfoca en esta.
+El diagrama tiene tres partes, separadas por líneas horizontales:
+- Nombre de la clase
+- Atributos (datos de la clase)
+- Métodos (funciones de la clase)
+- 
+1. Nombre de la clase
+En la parte superior se pone el nombre de la clase: HolaMundo.
+Esto indica que todo lo que está en ese recuadro es parte de esa clase.
+
+3. Atributos
+Aquí se muestra el atributo mensaje.
+La convención es que si un atributo tiene un signo - adelante (menos), indica que es privado o interno (en Python no se usa explícitamente así, pero es una convención).
+mensaje: str indica que mensaje es de tipo cadena de texto (str).
+La clase usa este atributo para guardar el texto que se quiere mostrar cuando se saluda.
+
+5. Métodos
+Los métodos son las funciones dentro de la clase.
+El signo + indica que el método es público, es decir, accesible desde fuera de la clase.
+__init__(mensaje: str) es el método constructor. Se llama cuando creas un objeto de la clase. Recibe un parámetro mensaje para inicializar el atributo de la clase.
+saludar() es el método que imprime el mensaje almacenado.
+/Cuando creamos un objeto como: saludo = HolaMundo("Hola mundo"), estamos usando el metodo __init__ para asignar "Hola mundo" al atributo mensaje.
+/Luego, al llamar saludo.saludar(), ejecutamos el metodo que imprime el mesnsaje
