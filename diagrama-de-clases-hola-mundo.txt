@@ -1,0 +1,10 @@
++-----------------+
+|    HolaMundo    |   #Clase: HolaMundo
++-----------------+   
+| - mensaje: str  |   #Atributos:mensaje (privado, almacenado en self.mensaje, de tipo str)
++-----------------+
+| + __init__(mensaje: str) |
+| + saludar()             |   #Métodos:__init__(mensaje): constructor que recibe un mensaje y lo asigna al atributo mensaje.saludar(): método que imprime el mensaje almacenado.
++-----------------+
+ 
+
