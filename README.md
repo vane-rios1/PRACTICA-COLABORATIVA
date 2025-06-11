@@ -4,7 +4,7 @@ Los programas que creamos fueron:
 Algoritmo en PSeInt ----- Vanessa Ríos Pérez
 Programacion Esctructurada en Python ------ Elías Coyotzi Sosa
 Programacion Orientada a Objetos ------- Melanie Sosa Degabriel
-Programacion en Tkinter -------- Dalila Yussaví Conde Flores 
+Programacion en Tkinter -------- Dalila Yusaví Conde Flores 
 Diagrama de clases ---------- Paulina Sánchez Ramírez
 
 
