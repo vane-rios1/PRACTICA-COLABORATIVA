@@ -1,11 +1,11 @@
 # PRACTICA-COLABORATIVA
 En esta práctica colaborativa realizamos la creación de códigos que imprima "Hola Mundo". 
 Los programas que creamos fueron:
-Algoritmo en PSeInt ----- Vanessa Ríos Pérez
-Programacion Esctructurada en Python ------ Elías Coyotzi Sosa
-Programacion Orientada a Objetos ------- Melanie Sosa Degabriel
-Programacion en Tkinter -------- Dalila Yusaví Conde Flores 
-Diagrama de clases ---------- Paulina Sánchez Ramírez
+- Algoritmo en PSeInt ----- Vanessa Ríos Pérez
+- Programacion Esctructurada en Python ------ Elías Coyotzi Sosa
+- Programacion Orientada a Objetos ------- Melanie Sosa Degabriel
+- Programacion en Tkinter -------- Dalila Yusaví Conde Flores 
+- Diagrama de clases ---------- Paulina Sánchez Ramírez
 
 
 # ALGORITMO EN PSEINT
