@@ -24,8 +24,31 @@ Los programas que creamos fueron:
  El programa define una clase llamada HolaMundo, que sirve para guardar un mensaje personalizado. Cuando se crea un objeto a partir de esta clase, se le puede dar un mensaje, como por ejemplo "Hola mundo". Luego, el programa utiliza un método de esa clase para mostrar ese mensaje en la pantalla. En resumen, el programa está diseñado para recibir un mensaje al inicio y luego imprimirlo cuando se lo pida. Es una forma básica de demostrar cómo funcionan las clases y los métodos en Python.
 
 #  PROGRAMA CON INTERFAZ GRÁFICA (TKINTER)
-- Comienza abriendo la extensió o librería tkinter para poder agregar la interfaz gráfica
-- 
+- import tkinter as tk : Esta línea importa la librería  tkinter , que se usa para crear interfaces gráficas de usuario (GUI) en Python. Se le da el alias  tk  para facilitar su uso en el resto del código.
+​
+- ventana = tk.Tk() : Se crea la ventana principal de la aplicación.   tk.Tk()  crea un objeto ventana. Este objeto se asigna a la variable  ventana .
+​
+-  ventana.title("Hola Mundo") : Se establece el título de la ventana como "Hola Mundo".
+​
+-  ventana.geometry("500x500") : Se define el tamaño de la ventana a 500 píxeles de ancho por 500 píxeles de alto.
+​
+-  ventana.configure(bg="blue") : Se configura el color de fondo de la ventana a azul ( "blue" ).
+​
+-  etiqueta = tk.Label(ventana, text="Hola mundo", font=("Arial", 50), bg="blue", fg="white") : Se crea una etiqueta ( Label ) que mostrará el texto "Hola mundo"
+​
+-  ventana : La ventana donde se colocará la etiqueta.
+​
+-  text="Hola mundo" : El texto que mostrará la etiqueta.
+​
+-  font=("Arial", 50) : La fuente y el tamaño del texto (Arial, tamaño 50).
+​
+-  bg="blue" : El color de fondo de la etiqueta (azul, para que coincida con el fondo de la ventana).
+​
+-  fg="white" : El color del texto (blanco, para que contraste con el fondo azul).
+​
+-  etiqueta.pack(pady=20) : Se coloca la etiqueta en la ventana usando el gestor de geometría  pack .  pady=20  añade un relleno de 20 píxeles de espacio vertical arriba y abajo de la etiqueta.
+​
+-  ventana.mainloop() : Esta línea inicia el bucle principal de la aplicación  tkinter .  Mantiene la ventana abierta y responde a los eventos del usuario (como clics de ratón o pulsaciones de teclado) hasta que el usuario la cierre.
 
 
 
